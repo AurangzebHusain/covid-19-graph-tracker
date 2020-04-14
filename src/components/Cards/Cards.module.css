@@ -1,0 +1,50 @@
+.container{
+    margin: 50px 0;
+
+}
+
+.card{
+    margin:0 2% !important;
+}
+.infected{
+    border-bottom: 10px solid #ec9f05;
+}
+
+.recovered{
+    border-bottom: 10px solid #0fd64f  ;
+}
+.deaths{
+    border-bottom: 10px solid #db3445 ;
+}
+
+.gradientTextOrange {
+    background: -webkit-linear-gradient(315deg,#ff4e00,#ec9f05 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientTextStrongPurple {
+    background: -webkit-linear-gradient(315deg,#bf3a30,#864ba2 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientTextGreen {
+    background: -webkit-linear-gradient(315deg,#f8ef42,#0fd64f 24%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientTextRed {
+    background: -webkit-linear-gradient(147deg,#f71735,#db3445 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientTextBlue {
+    background: -webkit-linear-gradient(315deg,#36096d,#37d5d6 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media(max-width:770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
